@@ -10,7 +10,7 @@
 
 1. **Gitleaks exact-candidate scan:** not run against the exact final published Git tree before publication.
 2. **Independent human licensing/provenance review:** not completed before publication. The owner previously attested to having rights to publish the candidate files under Apache-2.0; that is an owner attestation, not an independent legal conclusion.
-3. **GitHub Actions CI:** not completed before publication. The repository includes a CI workflow; check its actual post-publication run result and do not assume it passed.
+3. **GitHub Actions CI:** not completed before publication. The repository includes a CI workflow; its first post-publication run passed, but this does not change the recorded pre-publication waiver.
 
 ## Evidence available at decision time
 
@@ -26,7 +26,7 @@
 
 - An unrecognized credential or sensitive string may remain despite local pattern scans.
 - Licensing, attribution, and provenance obligations have not received independent review.
-- The hosted CI workflow may fail or reveal issues after publication.
+- Later CI runs may fail or reveal issues after future changes.
 - The reconstructed candidate is not byte-identical to the historical V7 archive.
 
 ## Safety commitments
@@ -38,4 +38,4 @@
 
 ## Execution evidence
 
-This document records the owner's approval and residual-risk decision; it does not itself prove which files were published. Confirm publication from the target repository's commit history. Gitleaks, independent licensing/provenance review, and hosted CI remain waived/not completed until separate evidence shows otherwise.
+This document records the owner's approval and residual-risk decision. The first post-publication CI run [#40879622784](https://github.com/Tariqul0123/TQ-Community-Edition/actions/runs/40879622784) completed successfully. The pre-publication Gitleaks scan and independent licensing/provenance review remain waived/not completed.

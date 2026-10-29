@@ -1,13 +1,13 @@
 # Release Status
 
-**Status: OWNER-APPROVED PUBLICATION UNDER AN EXCEPTION — WAIVED GATES NOT PASSED**
+**Status: OWNER-APPROVED PUBLICATION UNDER AN EXCEPTION — WAIVED PRE-PUBLICATION GATES NOT PASSED**
 
 This is a reconstructed community-edition release, not a byte-identical copy of the historical V7 archive. The repository owner explicitly authorized publication while accepting the residual risk of three incomplete pre-publication gates. This is a documented exception, not a claim that the waived checks passed.
 
 ## Owner-approved exceptions
 - **Dedicated Gitleaks scan:** waived before publication; not run against the exact final published Git tree.
 - **Independent human licensing/provenance review:** waived before publication; no independent review is claimed.
-- **GitHub Actions CI:** waived as a pre-publication gate. The workflow is included; inspect the actual post-publication run result and do not assume it passed.
+- **GitHub Actions CI:** waived as a pre-publication gate. The workflow was included and the first post-publication run passed; this does not mean pre-publication CI was completed.
 
 The owner's prior attestation states they have the right to publish all candidate files under Apache-2.0. This report records that attestation as owner-provided information, not as independent legal advice or verification.
 
@@ -19,7 +19,7 @@ The owner's prior attestation states they have the right to publish all candidat
 - Extended selected secret-pattern scans returned no findings for the patterns checked. These checks are not equivalent to Gitleaks and are not a security certification.
 
 ## Publication verification
-The target repository's commit history and file tree are the source of truth for what was published. Check the actual GitHub Actions run after publication; this document does not claim hosted CI passed. The private production repository `Tariqul0123/tq-command-centre` is outside the release scope and must remain private and unchanged.
+The target repository's commit history and file tree are the source of truth for what was published. The first post-publication GitHub Actions run [#40879622784](https://github.com/Tariqul0123/TQ-Community-Edition/actions/runs/40879622784) completed successfully, including tests, compilation, and the basic heuristic scan. The private production repository `Tariqul0123/tq-command-centre` is outside the release scope and must remain private and unchanged.
 
 ## Safety boundary
 - This public repository contains only the community-edition reference package; it is not a production deployment recipe.

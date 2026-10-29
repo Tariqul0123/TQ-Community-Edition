@@ -2,7 +2,7 @@
 
 TQ is designed around a stable core that owns policy, workflows, memory, and business state. AI providers and Local AI are replaceable workers—not authoritative stores.
 
-> **Release status: OWNER-APPROVED PUBLIC RELEASE UNDER A DOCUMENTED EXCEPTION.** This package was reconstructed from project notes because the original `TQ_COMMUNITY_EDITION_RELEASE_V7.zip` was unavailable. It is not byte-identical to the previous V7 archive. The repository owner explicitly waived the dedicated Gitleaks scan, independent human licensing/provenance review, and hosted GitHub Actions CI as pre-publication gates. Those checks are not represented as passed. Check the repository's actual Actions results after publication.
+> **Release status: OWNER-APPROVED PUBLIC RELEASE UNDER A DOCUMENTED EXCEPTION.** This package was reconstructed from project notes because the original `TQ_COMMUNITY_EDITION_RELEASE_V7.zip` was unavailable. It is not byte-identical to the previous V7 archive. The repository owner explicitly waived the dedicated Gitleaks scan, independent human licensing/provenance review, and hosted GitHub Actions CI as pre-publication gates. Those pre-publication gates are not represented as passed. The first post-publication GitHub Actions run passed; this does not replace Gitleaks or independent licensing/provenance review.
 
 ## Goals
 - Demonstrate modular AI provider routing.
@@ -31,4 +31,4 @@ Read [CONTRIBUTING.md](CONTRIBUTING.md), [SECURITY.md](SECURITY.md), and [PUBLIC
 - No hosted demo is included.
 - No authentication, database, web server, or deployment automation is implemented.
 - Examples do not establish production readiness.
-- Dedicated secret scanning and independent legal/provenance review were waived by explicit owner decision for this publication; hosted CI must be checked separately and is not assumed to pass. See [OWNER-APPROVED-EXCEPTION.md](OWNER-APPROVED-EXCEPTION.md) and [RELEASE-STATUS.md](RELEASE-STATUS.md).
+- Dedicated secret scanning and independent legal/provenance review were waived by explicit owner decision and remain incomplete. See [OWNER-APPROVED-EXCEPTION.md](OWNER-APPROVED-EXCEPTION.md) and [RELEASE-STATUS.md](RELEASE-STATUS.md).

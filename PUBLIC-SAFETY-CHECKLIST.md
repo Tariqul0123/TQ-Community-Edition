@@ -7,7 +7,8 @@ This checklist records the actual status of the published release. The owner exp
 - [x] Local review and selected secret-pattern scans completed with no findings for the patterns checked; this is not a Gitleaks replacement.
 - [ ] Independent third-party licensing and attribution review — **WAIVED by owner; not completed**.
 - [x] Full Apache-2.0 license text included and owner attested to publication rights; independent legal verification not claimed.
-- [ ] Hosted GitHub Actions CI before publication — **WAIVED by owner; post-publication result must be checked**.
+- [ ] Hosted GitHub Actions CI before publication — **WAIVED by owner; not completed before publication**.
+- [x] First post-publication GitHub Actions CI run passed: [Community Edition CI #40879622784](https://github.com/Tariqul0123/TQ-Community-Edition/actions/runs/40879622784).
 - [x] Source archive safety checks found no path traversal or symlink entries.
 - [x] Demo/test data is synthetic and isolated from real business data in the example package.
 - [x] Public issue template does not solicit secrets.

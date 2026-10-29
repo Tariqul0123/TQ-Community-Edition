@@ -22,9 +22,10 @@ The repository owner explicitly approved publication while accepting residual ri
 - `CODE_OF_CONDUCT.md` is an original TQ Community Edition policy and is not presented as a Contributor Covenant adaptation.
 - Full Apache License 2.0 text is included, based on owner-provided publication authorization; no independent legal opinion is claimed.
 
-## Publication verification
-- The target repository's commit history and file tree are authoritative evidence of publication.
-- Inspect the actual first GitHub Actions run and record its result; this report does not assert hosted CI passed.
+## Post-publication CI evidence
+The first GitHub Actions run [Community Edition CI #40879622784](https://github.com/Tariqul0123/TQ-Community-Edition/actions/runs/40879622784) completed successfully. Its test, compilation, and basic heuristic scan steps passed. This is post-publication evidence only; it does not retroactively satisfy the waived pre-publication CI gate or replace Gitleaks or independent review.
+
+## Remaining follow-up
 - Run a dedicated secret scan against the published Git tree and remediate any finding immediately.
 - Arrange an independent review of licensing, attribution, and provenance when available.
 - Keep production repo, credentials, private data, broker execution, and Local AI exposure outside this community package.
