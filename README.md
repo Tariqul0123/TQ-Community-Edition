@@ -31,4 +31,4 @@ Read [CONTRIBUTING.md](CONTRIBUTING.md), [SECURITY.md](SECURITY.md), and [PUBLIC
 - No hosted demo is included.
 - No authentication, database, web server, or deployment automation is implemented.
 - Examples do not establish production readiness.
-- Dedicated secret scanning and independent legal/provenance review were waived by explicit owner decision and remain incomplete. See [OWNER-APPROVED-EXCEPTION.md](OWNER-APPROVED-EXCEPTION.md) and [RELEASE-STATUS.md](RELEASE-STATUS.md).
+- The pre-publication dedicated secret scan and independent legal/provenance review were waived. A dedicated post-publication Gitleaks v8.30.1 scan passed on 2026-10-29; independent human licensing/provenance review remains incomplete. See [OWNER-APPROVED-EXCEPTION.md](OWNER-APPROVED-EXCEPTION.md) and [RELEASE-STATUS.md](RELEASE-STATUS.md).
