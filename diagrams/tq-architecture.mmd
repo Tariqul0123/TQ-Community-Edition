@@ -1,0 +1,8 @@
+flowchart TD
+    User[User / Operator] --> TQ[TQ Core: Policy, Workflow, State]
+    TQ --> Gate[Approval Gate]
+    Gate --> Router[Department Router]
+    Router --> API[Replaceable AI Provider]
+    Router --> Local[Local AI: Disposable Inference]
+    TQ --> DB[(Authoritative TQ Data)]
+    Demo[Isolated Demo: Synthetic Data] -. no production link .-> TQ
